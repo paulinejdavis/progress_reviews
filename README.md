@@ -16,3 +16,5 @@ A tool for teachers to collectively see how students are doing.
 |-----------------------------------|-------------------------------|
 |"Green, Green, Red, Amber, Red"    | "Green: 2\nAmber: 1\nRed: 2"  |
 | "Green"                           | "Green: 1"
+| "Green, Amber"                    | "Green: 1\nAmber: 1"          |
+| "Green, Green, Amber"             | "Green: 2\nAmber: 1"          |

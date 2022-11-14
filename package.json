@@ -1,0 +1,15 @@
+{
+  "name": "progress_reviews",
+  "version": "1.0.0",
+  "description": "## 1. USER STORIES Help teachers how students are peforming on tests. String with comma  separated values which includes the test results. Build a programme that generate a report.",
+  "main": "progress.report.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
