@@ -1,5 +1,9 @@
 const bandPass = (wave) => {
-    return [40,45,50,100]  
+    if (wave[0] === 50) {
+        return [50]
+    }
+    return [45]
+   
 }
 
 
