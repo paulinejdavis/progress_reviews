@@ -1,4 +1,4 @@
-## {audio plugins}
+## {bandPass filter}
 
 ## User stories
 
