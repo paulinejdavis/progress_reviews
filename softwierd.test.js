@@ -11,5 +11,13 @@ describe('softwierd method', () => {
     it ('return "~aer~" when given "aer"', () => {
         expect(softwierd("aer")).toEqual("~aer~");
     }); 
+    xit ('return "are the" when given "are the"', () => {
+        expect(softwierd("are the")).toEqual("are the");
+    }); 
+
+    it ('return "aer the" when given "aer the"', () => {
+        expect(softwierd("aer the")).toEqual("~aer~ the");
+    }); 
+    
 });
 
