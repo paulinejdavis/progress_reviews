@@ -1,8 +1,14 @@
 // const dict = ['The', 'fox', 'jumped', 'a']
 
 const softwierd = (word) => {
-    return "a"
+    if (word === "are" ){
+    return "are"
+    } else  {
+    return "a" 
 
-}
+    }
+
+ };
+
 
 module.exports = softwierd;

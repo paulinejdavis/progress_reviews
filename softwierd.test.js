@@ -5,5 +5,10 @@ describe('softwierd method', () => {
         expect(softwierd("a")).toEqual("a");
 
     }); 
+
+    it ('return "are" when given "are"', () => {
+        expect(softwierd("are")).toEqual("are");
+
+    }); 
 });
 
