@@ -1,10 +1,12 @@
-// const dict = ['The', 'fox', 'jumped', 'a']
+const dict = ['The', 'fox', 'jumped', 'a', 'are'];
 
 const softwierd = (word) => {
-    if (word === "are" ){
-    return "are"
-    } else  {
-    return "a" 
+    if (dict.includes(word)) {
+    return word
+    } else if (word == "") {
+        return "" 
+    } else {
+    return `~${word}~`
 
     }
 
